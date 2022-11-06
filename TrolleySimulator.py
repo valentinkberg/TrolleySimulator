@@ -214,7 +214,8 @@ def game_mode_start(app):
     app.time = 0
     app.time_since = 0
     app.speed = 50
-    app.deciding_time = 100
+    app.deciding_time = 50
+    app.time_till_choice = 50
     app.choices_total = 0
     app.choices_goal = 5 #hvor mange choices skal bli gjort i spillet?
     app.choices_good = 0
