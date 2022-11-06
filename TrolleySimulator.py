@@ -86,7 +86,6 @@ def create_random_choices(app):
         app.value_d = 0
         for key in choice_d:
             app.value_d += app.char_values[key]
-    print(choice_d, choice_u)
     return choice_d, choice_u
 
 
